@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+
+                /* Config général*/
+
+body{
+    background-color: #F5E2D1;
+    font-family: 'Righteous', cursive;
+    color : #000;
+    margin: 2;
+
+}
+                    /*Fonts*/
+h1{
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 96px;
+    color: rgba(0,0,0, 0.6);
+    text-shadow: rgba(0, 0, 0, 0.25) 7px 9px 6px;
+    margin:0;
+}
+h2{
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: #1A242E;
+    margin:0;
+    text-shadow: rgba(0, 0, 0, 0.25) 7px 9px 6px;
+}
+h3{
+    color: #AA1B1F;
+    padding-left: 100px;
+}
+h4{
+    color: #AA1B1F;
+    padding-left: 42px;
+    font-size: 1.17em;
+}
+
+p{
+    margin: 5px;
+}
+span.parcours {
+    line-height: 30px;
+}
+
+            /*Couleur des Icones */
+
+.fa-facebook-f, .fa-linkedin-in{
+    color: #3A569A;
+}
+
+.fa-instagram{
+    color: #DD3264;
+}
+
+.fa-twitter{
+    color: #1C9CEA;
+}
+
+
+
+                    /*Header + Prénom Nom*/
+
+.rectangle{
+    background-color: #F3B924;
+    height: 190px;
+    background-size: cover;
+    box-shadow: 5px 10px 5px 0px rgba(0, 0, 0, .5);
+}
+                    /*Qui suis-je + Mes skills + Fil*/
+
+.Contenu1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.numero1{
+    width: 520px;
+    height: 215px;
+}
+
+.Fil{
+    border: solid;
+    border-color: #AA1B1F;
+    width: 5px;
+    height: 215px;
+    border-bottom: none;
+    border-top: none;
+    border-width: 3px; 
+}
+
+.numero2{
+    width: 520px;
+    height: 215px;
+}
+
+li{
+    list-style: circle; 
+    line-height: 30px;
+}
+                    /*Mon parcours + Ce que j'aime faire + Image*/
+
+.Contenu2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+
+.numero3{
+    width: 520px;
+    height: 215px;
+}
+
+img{
+    width: 190px;
+    height: 270px;
+}
+
+.numero4{
+    width: 520px;
+    height: 215px;
+}
+
+                 /*Cercle de Contact*/
+
+.Contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 195px;
+}
+hr{
+    color: #ffffff;
+    border : solid;
+    border-color: #35B9C6;
+    width: 150px;
+
+}
+
+.Cercle{
+    background-color: #35B9C6;
+    height: 215px;
+    width: 215px;
+    border-radius: 50%;
+    border:solid  #000000;
+    border-top-color: #AA1B1F;
+    border-right-color: #AA1B1F ;
+    border-width: 5px;      
+    justify-content: center;
+    align-items: center;
+    box-shadow: 60px 30px 5px 1px rgba(0, 0, 0, 0.2)
+}
+/*
+.fa-arrow-circle-right{
+    size: 5x;
+}
+
+
+
+
+
+/*
+span.Position{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+
+}
+
+/* Image 
+
+img{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    width: 260px;
+    height: 210px;
+
+}
