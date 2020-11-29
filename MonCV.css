@@ -32,7 +32,7 @@ h2{
 }
 h3{
     color: #AA1B1F;
-    padding-left: 100px;
+    padding-left: 150px;
 }
 h4{
     color: #AA1B1F;
@@ -71,12 +71,20 @@ span.parcours {
     background-size: cover;
     box-shadow: 5px 10px 5px 0px rgba(0, 0, 0, .5);
 }
+
+.lottie{
+    position: absolute;
+    margin: -55px;
+    padding-left: 110px;
+}
+
                     /*Qui suis-je + Mes skills + Fil*/
 
 .Contenu1{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 214px;
 }
 
 .numero1{
@@ -109,7 +117,7 @@ li{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 150px;
+    height: 100px;
 }
 
 .numero3{
@@ -124,7 +132,9 @@ img{
 
 .numero4{
     width: 520px;
-    height: 215px;
+    height: 230px;
+    box-shadow: 0 10px 23px -5px black;
+
 }
 
                  /*Cercle de Contact*/
@@ -133,7 +143,7 @@ img{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 195px;
+    height: 190px;
 }
 hr{
     color: #ffffff;
@@ -182,5 +192,10 @@ img{
     align-content: center;
     width: 260px;
     height: 210px;
+
+
+
+
+      box-shadow: 36px 25px 22px -4px rgba(0, 0, 0, .5);
 
 }
